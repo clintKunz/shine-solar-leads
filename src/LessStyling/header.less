@@ -1,7 +1,39 @@
 .header {
-    min-width: 1024px - 250px;
-    width: 1115px; 
+    width: 1160px; 
     height: 124px;
-    border: 1px solid green;
-    margin: 17px 21px 9px 24px;
+    
+
+    .title-search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 17px; 
+        padding: 8px 21px 8px 24px;
+        border-bottom: 1px solid #e0e3e5;
+
+        .fas {
+            font-size: 19px; 
+            margin: 8px 12px 8px 0; 
+        }
+
+        .search-field {
+            display: flex;
+            align-items: center;
+            width: 200px; 
+            height:27px; 
+            background-color: #ECEEEF;
+
+            .fas {
+                margin-left: 12px; 
+                opacity: .6;
+                font-size: 14px;
+            }
+
+            input {
+                opacity: .6;
+                border: none; 
+                background-color: #ECEEEF;
+            }
+        }
+    }
 }

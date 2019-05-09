@@ -133,12 +133,13 @@ body {
 }
 body .container {
   display: flex;
-  width: 100%;
-  min-width: 1250px;
-  max-width: 1410px;
+  width: 1410px;
   background-color: #F5F6F7;
   margin: 0 auto;
   color: #425563;
+}
+body .fas {
+  color: #7B8C99;
 }
 .drawer {
   height: 98vh;
@@ -146,9 +147,6 @@ body .container {
   padding: 17px 0 17px 0;
   background-color: #303d46;
   color: #ffffff;
-}
-.drawer .fas {
-  color: #7B8C99;
 }
 .drawer .drawer-title {
   font-size: 16px;
@@ -205,11 +203,37 @@ body .container {
   font-size: 16px;
 }
 .header {
-  min-width: 774px;
-  width: 1115px;
+  width: 1160px;
   height: 124px;
-  border: 1px solid green;
-  margin: 17px 21px 9px 24px;
+}
+.header .title-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  padding: 8px 21px 8px 24px;
+  border-bottom: 1px solid #e0e3e5;
+}
+.header .title-search .fas {
+  font-size: 19px;
+  margin: 8px 12px 8px 0;
+}
+.header .title-search .search-field {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 27px;
+  background-color: #ECEEEF;
+}
+.header .title-search .search-field .fas {
+  margin-left: 12px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+.header .title-search .search-field input {
+  opacity: 0.6;
+  border: none;
+  background-color: #ECEEEF;
 }
 .main {
   border: 1px solid blue;
