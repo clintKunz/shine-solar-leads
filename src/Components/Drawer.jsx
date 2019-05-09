@@ -4,7 +4,7 @@ function Drawer() {
     return(
         <section className="drawer">
             <div className="drawer-title">
-                <h1>LuminaryCXM</h1>
+                <h1>Luminary<span style={{color: '#17c4f1'}}>CXM</span></h1>
                 <i class="fas fa-bars"></i>
             </div>
             <div className="drawer-profile">

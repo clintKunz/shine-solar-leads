@@ -88,7 +88,6 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -204,7 +203,7 @@ body .fas {
 }
 .header {
   width: 1160px;
-  height: 124px;
+  height: 108px;
 }
 .header .title-search {
   display: flex;
@@ -297,7 +296,72 @@ body .fas {
   margin-right: 6px;
 }
 .main {
-  border: 1px solid blue;
   height: 85vh;
   margin: 0 21px 0 24px;
+}
+.main table {
+  width: 100%;
+}
+.main table #tr-header {
+  color: #7d8d9a;
+}
+.main table tr {
+  text-align: left;
+  height: 35px;
+  vertical-align: middle;
+}
+.main table tr th {
+  font-size: 11px;
+  max-width: 42px;
+  padding-left: 8px;
+}
+.main table tr th .rectangle {
+  width: 5px;
+  height: 12px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  background-color: #e0e3e5;
+}
+.main table tr th .rectangle:hover {
+  cursor: pointer;
+}
+.main table tr th #full-name {
+  color: #425563;
+}
+.main table tr th #full-name .fas {
+  color: #425563;
+  font-size: 16px;
+}
+.main table tr th div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8px;
+}
+.main table tr th div .fas {
+  color: #b1bbc2;
+}
+.main table tr td {
+  font-size: 12px;
+  padding-left: 9px;
+}
+.main table tr td .rectangle {
+  width: 13px;
+  height: 12px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  background-color: #e0e3e5;
+}
+.main table tr td .rectangle:hover {
+  cursor: pointer;
+}
+.main #tr-leads {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 2px 0;
+  background-color: #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  border-top: 5px solid #F5F6F7;
+  border-bottom: 5px solid #F5F6F7;
+  -moz-border-radius: 5px;
 }

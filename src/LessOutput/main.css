@@ -1,5 +1,39 @@
 .main {
-  border: 1px solid blue;
   height: 85vh;
   margin: 0 21px 0 24px;
+}
+.main table {
+  width: 100%;
+}
+.main table #tr-header {
+  color: #7d8d9a;
+}
+.main table tr {
+  text-align: left;
+  height: 30px;
+  border: 1px solid red;
+  vertical-align: middle;
+}
+.main table tr th {
+  font-size: 11px;
+  max-width: 42px;
+}
+.main table tr th #full-name {
+  color: #425563;
+}
+.main table tr th #full-name .fas {
+  color: #425563;
+  font-size: 16px;
+}
+.main table tr th div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+}
+.main table tr th div .fas {
+  color: #b1bbc2;
+}
+.main table tr td {
+  font-size: 12px;
 }
