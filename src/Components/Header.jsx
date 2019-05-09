@@ -16,6 +16,21 @@ function Header() {
                     />
                 </div>
             </div>
+            <div className="filter-new-lead">
+                <div className="filters">
+                    <div className="active-filter">
+                        <div>
+                            <div className="status">Status</div>
+                            <div>Appointment Scheduled</div>
+                        </div>
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div className="new-lead">
+                    <i class="fas fa-plus"></i>
+                    New Lead
+                </div>
+            </div>
         </div>
     )
 }

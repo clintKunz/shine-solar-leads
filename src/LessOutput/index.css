@@ -235,6 +235,31 @@ body .fas {
   border: none;
   background-color: #ECEEEF;
 }
+.header .filter-new-lead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .filter-new-lead .filters .active-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #d3d8dc;
+  border-radius: 20px;
+  font-size: 11px;
+  width: 160px;
+}
+.header .filter-new-lead .filters .active-filter div {
+  margin-left: 4px;
+}
+.header .filter-new-lead .filters .active-filter .status {
+  font-size: 10px;
+  color: #7B8C99;
+}
+.header .filter-new-lead .filters .active-filter .fas {
+  font-size: 14px;
+}
 .main {
   border: 1px solid blue;
   height: 85vh;
