@@ -25,6 +25,10 @@ function Header() {
                         </div>
                         <i class="fas fa-times"></i>
                     </div>
+                    <div className="new-filter">
+                        <i class="fas fa-plus"></i>
+                        FILTER
+                    </div>
                 </div>
                 <div className="new-lead">
                     <i class="fas fa-plus"></i>
