@@ -239,7 +239,7 @@ body .fas {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0 8px 18px;
+  padding: 8px 21px 8px 18px;
   border-bottom: 1px solid #e0e3e5;
 }
 .header .filter-new-lead .filters {
@@ -280,6 +280,21 @@ body .fas {
 }
 .header .filter-new-lead .filters .new-filter .fas {
   color: #b1bbc2;
+}
+.header .filter-new-lead .new-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  font-size: 11px;
+  color: #ffffff;
+  width: 90px;
+  background-color: #3dca59;
+  border-radius: 3px;
+}
+.header .filter-new-lead .new-lead .fas {
+  color: #ffffff;
+  margin-right: 6px;
 }
 .main {
   border: 1px solid blue;
