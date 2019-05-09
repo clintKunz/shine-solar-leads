@@ -1,0 +1,38 @@
+.drawer {
+  height: 98vh;
+  min-width: 250px;
+  padding: 17px 0 17px 0;
+  background-color: #303d46;
+  color: #ffffff;
+}
+.drawer .drawer-title {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 17px 21px;
+  border-bottom: 1px solid #414C54;
+}
+.drawer .drawer-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px 12px 18px;
+  border-bottom: 1px solid #414C54;
+}
+.drawer .drawer-profile .pic-name-status {
+  display: flex;
+  align-items: center;
+}
+.drawer .drawer-profile .pic-name-status img {
+  border-radius: 50%;
+  height: 35px;
+  margin-right: 8px;
+}
+.drawer .drawer-profile .pic-name-status .name-status {
+  font-size: 13px;
+}
+.drawer .drawer-profile .pic-name-status .name-status div {
+  margin-top: 3px;
+  font-size: 10px;
+  color: #7B8C99;
+}
